@@ -49585,3 +49585,11 @@ body {
     border-radius: 0;
     border: 1px solid #e8e5dd;
 }
+
+.quiz-question-pane{
+    min-height: calc(100vh - 158px);;
+}
+
+.btn-multiple-choice{
+    border-color: #4fc9da !important;
+}
