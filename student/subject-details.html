@@ -13,7 +13,7 @@ License: For each use you must have a valid license purchased only from above li
 <html lang="en">
 	<!--begin::Head-->
 	<head>
-		<title>Listrik Statis | Gamification</title>
+		<title>Gerak Lurus | Gamification</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="Good admin dashboard live demo. Check out all the features of the admin panel. A large number of settings, additional services and widgets." />
 		<meta name="keywords" content="Good, bootstrap, bootstrap 5, admin themes, free admin themes, bootstrap admin, bootstrap dashboard, bootstrap dark mode" />
@@ -345,7 +345,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Page title-->
 								<div class="page-title d-flex flex-column me-5">
 									<!--begin::Title-->
-									<h1 class="d-flex flex-column text-dark fw-bolder fs-2 mb-0">Listrik Statis</h1>
+									<h1 class="d-flex flex-column text-dark fw-bolder fs-2 mb-0">Gerak Lurus</h1>
 									<!--end::Title-->
 									<!--begin::Breadcrumb-->
 									<ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 pt-1">
@@ -360,7 +360,7 @@ License: For each use you must have a valid license purchased only from above li
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Listrik Statis</li>
+										<li class="breadcrumb-item text-muted">Gerak Lurus</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<!-- <li class="breadcrumb-item">
@@ -1776,398 +1776,477 @@ License: For each use you must have a valid license purchased only from above li
 					<!--begin::Content-->
 					<div class="content d-flex flex-column flex-column-fluid content-bg" id="kt_content">
 						<!--begin::Container-->
-						<div id="kt_content_container" class="row container-fluid mt-4">
-							<div class="col-md-8">
-								<div class="row">
-									<div class="col-12">
-										<div class="card card-border-square card-flush">
-											<div class="card-body d-flex justify-content-sm-between align-items-center">
-												<div class="d-flex flex-column col-8">
-													<h1>Test Subject</h1>
-													<div class="d-flex d-inline-block justify-content-sm-between">
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Difficulty: <span class="d-block badge badge-light-success">Easy</span>
-														</span>
+						<div id="kt_content_container" class="row container-fluid mt-4 mb-4">
+							<div class="col-12">
+								<ul class="nav nav-tabs nav-pills flex-row border-0 me-5 mb-3 mb-md-0 fs-6">
+									<li class="nav-item me-0 mb-md-2 col-6 w-50">
+										<a class="nav-link btn btn-flex btn-active-light-success active w-100" data-bs-toggle="tab" href="#challenges_tab">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen001.svg-->
+											<span class="svg-icon svg-icon-2 svg-icon-primary me-3">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M13.0079 2.6L15.7079 7.2L21.0079 8.4C21.9079 8.6 22.3079 9.7 21.7079 10.4L18.1079 14.4L18.6079 19.8C18.7079 20.7 17.7079 21.4 16.9079 21L12.0079 18.8L7.10785 21C6.20785 21.4 5.30786 20.7 5.40786 19.8L5.90786 14.4L2.30785 10.4C1.70785 9.7 2.00786 8.6 3.00786 8.4L8.30785 7.2L11.0079 2.6C11.3079 1.8 12.5079 1.8 13.0079 2.6Z" fill="black"></path>
+												</svg>
+											</span>
+											<!--end::Svg Icon-->
+											<span class="d-flex flex-column align-items-start">
+												<span class="fs-4 fw-bolder">Challenges</span>
+												<span class="fs-7">Increase your knowledge by completing the Challenges</span>
+											</span>
+										</a>
+									</li>
+									<li class="nav-item me-0 mb-md-2 col-6 w-50">
+										<a class="nav-link btn btn-flex btn-active-light-info w-100" data-bs-toggle="tab" href="#lessons_tab">
+											<!--begin::Svg Icon | path: icons/duotune/general/gen003.svg-->
+											<span class="svg-icon svg-icon-2 svg-icon-primary">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M13.0079 2.6L15.7079 7.2L21.0079 8.4C21.9079 8.6 22.3079 9.7 21.7079 10.4L18.1079 14.4L18.6079 19.8C18.7079 20.7 17.7079 21.4 16.9079 21L12.0079 18.8L7.10785 21C6.20785 21.4 5.30786 20.7 5.40786 19.8L5.90786 14.4L2.30785 10.4C1.70785 9.7 2.00786 8.6 3.00786 8.4L8.30785 7.2L11.0079 2.6C11.3079 1.8 12.5079 1.8 13.0079 2.6Z" fill="black"></path>
+												</svg>
+											</span>
+											<!--end::Svg Icon-->
+											<span class="d-flex flex-column align-items-start">
+												<span class="fs-4 fw-bolder">Lessons</span>
+												<span class="fs-7">Learn about the subject</span>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tab-content">
+								<div class="tab-pane fade active show" id="challenges_tab">
+									<div class="d-flex">
+										<div class="col-md-8 me-4">
+											<div class="row">
+												<div class="col-12">
+													<div class="card card-border-square card-flush">
+														<div class="card-body d-flex justify-content-sm-between align-items-center">
+															<div class="d-flex flex-column col-8">
+																<h1>Kecepatan Rata-rata</h1>
+																<div class="d-flex d-inline-block justify-content-sm-between">
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Difficulty: <span class="d-block badge badge-light-success">Easy</span>
+																	</span>
+																</div>
+															</div>
+															<div class="d-flex flex-column col-auto">
+																<a href="./subject-details.html" class="btn btn-primary">Solved <i class="bi bi-check2-circle"></i></a>
+															</div>
+														</div>
 													</div>
 												</div>
-												<div class="d-flex flex-column col-auto">
-													<a href="./subject-details.html" class="btn btn-primary">Solved <i class="bi bi-check2-circle"></i></a>
+												<div class="col-12">
+													<div class="card card-border-square card-flush">
+														<div class="card-body d-flex justify-content-sm-between align-items-center">
+															<div class="d-flex flex-column col-8">
+																<h1>Percepatan</h1>
+																<div class="d-flex d-inline-block justify-content-sm-between">
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Difficulty: <span class="d-block badge badge-light-warning">Intermediate</span>
+																	</span>
+																</div>
+															</div>
+															<div class="d-flex flex-column col-auto">
+																<a href="./subject-details.html" class="btn btn-primary">Solved <i class="bi bi-check2-circle"></i></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-12">
+													<div class="card card-border-square card-flush">
+														<div class="card-body d-flex justify-content-sm-between align-items-center">
+															<div class="d-flex flex-column col-8">
+																<h1>Latihan Soal SBMPTN</h1>
+																<div class="d-flex d-inline-block justify-content-sm-between">
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Difficulty: <span class="d-block badge badge-light-danger">Hard</span>
+																	</span>
+																</div>
+															</div>
+															<div class="d-flex flex-column col-auto">
+																<a href="./subject-details.html" class="btn btn-primary">Solved <i class="bi bi-check2-circle"></i></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-12">
+													<div class="card card-border-square card-flush">
+														<div class="card-body d-flex justify-content-sm-between align-items-center">
+															<div class="d-flex flex-column col-8">
+																<h1>Latihan Soal Simak UI</h1>
+																<div class="d-flex d-inline-block justify-content-sm-between">
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Difficulty: <span class="d-block badge badge-light-danger">Hard</span>
+																	</span>
+																</div>
+															</div>
+															<div class="d-flex flex-column col-auto">
+																<a href="./subject-details.html" class="btn btn-success">Solve Challenge</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-12">
+													<div class="card card-border-square card-flush">
+														<div class="card-body d-flex justify-content-sm-between align-items-center">
+															<div class="d-flex flex-column col-8">
+																<h1>Kisi-kisi UAS</h1>
+																<div class="d-flex d-inline-block justify-content-sm-between">
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
+																	</span>
+																	<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
+																		Difficulty: <span class="d-block badge badge-light-danger">Hard</span>
+																	</span>
+																</div>
+															</div>
+															<div class="d-flex flex-column col-auto">
+																<a href="./subject-details.html" class="btn btn-success">Solve Challenge</a>
+															</div>
+														</div>
+													</div>
 												</div>
 											</div>
+
 										</div>
-									</div>
-									<div class="col-12">
-										<div class="card card-border-square card-flush">
-											<div class="card-body d-flex justify-content-sm-between align-items-center">
-												<div class="d-flex flex-column col-8">
-													<h1>Test Subject</h1>
-													<div class="d-flex d-inline-block justify-content-sm-between">
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Difficulty: <span class="d-block badge badge-light-success">Easy</span>
-														</span>
+										<div class="col-md-4">
+											<div class="row">
+												<div class="col-12 mb-2">
+													<div class="d-flex align-items-center flex-column mt-3 w-100">
+														<h2>Challenges Progress</h2>
+														<div class="h-8px mx-3 w-100 bg-light-success rounded">
+															<div class="bg-success rounded h-8px" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+														<div class="d-flex justify-content-between w-100 mt-2 mb-2">
+															<span class="fw-light fs-6 text-gray-400">(10 / 20 challenges completed)</span>
+															<span class="fw-boldest fs-6 text-dark">50%</span>
+														</div>
 													</div>
 												</div>
-												<div class="d-flex flex-column col-auto">
-													<a href="./subject-details.html" class="btn btn-primary">Solved <i class="bi bi-check2-circle"></i></a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="card card-border-square card-flush">
-											<div class="card-body d-flex justify-content-sm-between align-items-center">
-												<div class="d-flex flex-column col-8">
-													<h1>Test Subject</h1>
-													<div class="d-flex d-inline-block justify-content-sm-between">
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Difficulty: <span class="d-block badge badge-light-success">Easy</span>
-														</span>
+												<div class="col-12 mb-2">
+													<div class="d-flex align-items-center flex-column mt-3 w-100">
+														<h2>Achievements</h2>
+														<div class="tab-content">
+															<!--begin::Tap pane-->
+															<div class="tab-pane fade active show" id="achievement-tab-1">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed text-center mb-4">
+																				<img src="../assets/media/achievements/badge1.png" alt="image">
+																			</div>
+																			<p>Complete Challenge #1</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-2">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed text-center mb-4">
+																				<img src="../assets/media/achievements/badge2.png" alt="image">
+																			</div>
+																			<p>Complete 2 Challenge</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-3">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed text-center mb-4">
+																				<img src="../assets/media/achievements/badge3.png" alt="image">
+																			</div>
+																			<p>Complete 1 Challenge with perfect score!</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-4">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed text-center mb-4">
+																				<img src="../assets/media/achievements/badge4.png" alt="image">
+																			</div>
+																			<p>Complete 3 Challenge</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-5">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed text-center mb-4">
+																				<img src="../assets/media/achievements/badge5.png" alt="image">
+																			</div>
+																			<p>Complete 2 Challenge with perfect score! </p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-6">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed symbol-circle text-center mb-4 m-auto">
+																				<h1>
+																					<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
+																				</h1>
+																			</div>
+																			<p>Finish 50% of the challenges</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-7">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed symbol-circle text-center mb-4 m-auto">
+																				<h1>
+																					<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
+																				</h1>
+																			</div>
+																			<p>Finish 80% of the challenges</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="achievement-tab-8">
+																<div class="card card-flush">
+																	<div class="card-body d-flex justify-content-sm-between align-items-center">
+																		<div class="d-flex flex-column col-12">
+																			<div class="symbol symbol-100px symbol-fixed symbol-circle text-center mb-4 m-auto">
+																				<h1>
+																					<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
+																				</h1>
+																			</div>
+																			<p>Finish 100% of the challenges</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--end::Tap pane-->
+														</div>
+														<ul class="nav nav-pills nav-pills-custom mb-3">
+															<!--begin::Item-->
+															<li class="nav-item mb-3 me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4 active" data-bs-toggle="pill" href="#achievement-tab-1">
+																	<!--begin::Icon-->
+																	<div class="nav-icon">
+																		<img alt="" src="../assets/media/achievements/badge1.png" class="">
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item mb-3 me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-2">
+																	<!--begin::Icon-->
+																	<div class="nav-icon">
+																		<img alt="" src="../assets/media/achievements/badge2.png" class="">
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item mb-3 me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-3">
+																	<!--begin::Icon-->
+																	<div class="nav-icon">
+																		<img alt="" src="../assets/media/achievements/badge3.png" class="">
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item mb-3 me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-4">
+																	<!--begin::Icon-->
+																	<div class="nav-icon">
+																		<img alt="" src="../assets/media/achievements/badge4.png" class="nav-icon">
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-5">
+																	<!--begin::Icon-->
+																	<div class="nav-icon">
+																		<img alt="" src="../assets/media/achievements/badge5.png" class="nav-icon">
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-6">
+																	<!--begin::Icon-->
+																	<div class="symbol symbol-35px symbol-circle nav-icon">
+																		<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-7">
+																	<!--begin::Icon-->
+																	<div class="symbol symbol-35px symbol-circle  nav-icon">
+																		<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+															<!--begin::Item-->
+															<li class="nav-item me-3">
+																<!--begin::Link-->
+																<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-8">
+																	<!--begin::Icon-->
+																	<div class="symbol symbol-35px symbol-circle  nav-icon">
+																		<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
+																	</div>
+																	<!--end::Icon-->
+																	<!--begin::Bullet-->
+																	<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+																	<!--end::Bullet-->
+																</a>
+																<!--end::Link-->
+															</li>
+															<!--end::Item-->
+														</ul>
 													</div>
 												</div>
-												<div class="d-flex flex-column col-auto">
-													<a href="./subject-details.html" class="btn btn-primary">Solved <i class="bi bi-check2-circle"></i></a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="card card-border-square card-flush">
-											<div class="card-body d-flex justify-content-sm-between align-items-center">
-												<div class="d-flex flex-column col-8">
-													<h1>Test Subject</h1>
-													<div class="d-flex d-inline-block justify-content-sm-between">
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Difficulty: <span class="d-block badge badge-light-warning">Medium</span>
-														</span>
+												<div class="col-12 mb-2">
+													<div class="d-flex align-items-center flex-column mt-3 w-100">
+														<h4 class="card-title fw-bolder text-">Share your Journey</h4>
 													</div>
-												</div>
-												<div class="d-flex flex-column col-auto">
-													<a href="./subject-details.html" class="btn btn-success">Solve Challenge</a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="card card-border-square card-flush">
-											<div class="card-body d-flex justify-content-sm-between align-items-center">
-												<div class="d-flex flex-column col-8">
-													<h1>Test Subject</h1>
-													<div class="d-flex d-inline-block justify-content-sm-between">
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Score: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">80.0</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Attempt: <span class="text-dark fw-bold fs-7 d-block text-start ps-0">5</span>
-														</span>
-														<span class="text-gray-400 fw-bold fs-7 d-block text-start ps-0">
-															Difficulty: <span class="d-block badge badge-light-danger">Hard</span>
-														</span>
+													<div class="mt-3 w-100 text-center">
+														<div class="flex-column">
+															<a href="#" class="me-6">
+																<img src="../assets/media/svg/brand-logos/facebook-4.svg" class="h-40px me-2" alt="">
+															</a>
+															<a href="#" class="me-6">
+																<img src="../assets/media/svg/brand-logos/twitter-2.svg" class="h-40px me-2" alt="">
+															</a>
+															<a href="#" class="me-6">
+																<img src="../assets/media/svg/brand-logos/instagram-2-1.svg" class="h-40px me-2" alt="">
+															</a>
+														</div>
 													</div>
-												</div>
-												<div class="d-flex flex-column col-auto">
-													<a href="./subject-details.html" class="btn btn-success">Solve Challenge</a>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-
-							</div>
-							<div class="col-md-4">
-								<div class="row">
-									<div class="col-12 mb-2">
-										<div class="d-flex align-items-center flex-column mt-3 w-100">
-											<h2>Challenges Progress</h2>
-											<div class="h-8px mx-3 w-100 bg-light-success rounded">
-												<div class="bg-success rounded h-8px" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<div class="d-flex justify-content-between w-100 mt-2 mb-2">
-												<span class="fw-light fs-6 text-gray-400">(10 / 20 challenges completed)</span>
-												<span class="fw-boldest fs-6 text-dark">50%</span>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 mb-2">
-										<div class="d-flex align-items-center flex-column mt-3 w-100">
-											<h2>Achievements</h2>
-											<div class="tab-content">
-												<!--begin::Tap pane-->
-												<div class="tab-pane fade active show" id="achievement-tab-1">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed text-center mb-4">
-																	<img src="../assets/media/achievements/badge1.png" alt="image">
-																</div>
-																<p>Complete Challenge #1</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-2">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed text-center mb-4">
-																	<img src="../assets/media/achievements/badge2.png" alt="image">
-																</div>
-																<p>Complete 2 Challenge</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-3">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed text-center mb-4">
-																	<img src="../assets/media/achievements/badge3.png" alt="image">
-																</div>
-																<p>Complete 1 Challenge with perfect score!</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-4">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed text-center mb-4">
-																	<img src="../assets/media/achievements/badge4.png" alt="image">
-																</div>
-																<p>Complete 3 Challenge</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-5">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed text-center mb-4">
-																	<img src="../assets/media/achievements/badge5.png" alt="image">
-																</div>
-																<p>Complete 2 Challenge with perfect score! </p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-6">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed symbol-circle text-center mb-4 m-auto">
-																	<h1>
-																		<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
-																	</h1>
-																</div>
-																<p>Finish 50% of the challenges</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-7">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed symbol-circle text-center mb-4 m-auto">
-																	<h1>
-																		<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
-																	</h1>
-																</div>
-																<p>Finish 80% of the challenges</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane fade" id="achievement-tab-8">
-													<div class="card card-flush">
-														<div class="card-body d-flex justify-content-sm-between align-items-center">
-															<div class="d-flex flex-column col-12">
-																<div class="symbol symbol-100px symbol-fixed symbol-circle text-center mb-4 m-auto">
-																	<h1>
-																		<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
-																	</h1>
-																</div>
-																<p>Finish 100% of the challenges</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!--end::Tap pane-->
-											</div>
-											<ul class="nav nav-pills nav-pills-custom mb-3">
-												<!--begin::Item-->
-												<li class="nav-item mb-3 me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4 active" data-bs-toggle="pill" href="#achievement-tab-1">
-														<!--begin::Icon-->
-														<div class="nav-icon">
-															<img alt="" src="../assets/media/achievements/badge1.png" class="">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item mb-3 me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-2">
-														<!--begin::Icon-->
-														<div class="nav-icon">
-															<img alt="" src="../assets/media/achievements/badge2.png" class="">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item mb-3 me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-3">
-														<!--begin::Icon-->
-														<div class="nav-icon">
-															<img alt="" src="../assets/media/achievements/badge3.png" class="">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item mb-3 me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-4">
-														<!--begin::Icon-->
-														<div class="nav-icon">
-															<img alt="" src="../assets/media/achievements/badge4.png" class="nav-icon">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-5">
-														<!--begin::Icon-->
-														<div class="nav-icon">
-															<img alt="" src="../assets/media/achievements/badge5.png" class="nav-icon">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-6">
-														<!--begin::Icon-->
-														<div class="symbol symbol-35px symbol-circle nav-icon">
-															<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-7">
-														<!--begin::Icon-->
-														<div class="symbol symbol-35px symbol-circle  nav-icon">
-															<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
-												<!--begin::Item-->
-												<li class="nav-item me-3">
-													<!--begin::Link-->
-													<a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#achievement-tab-8">
-														<!--begin::Icon-->
-														<div class="symbol symbol-35px symbol-circle  nav-icon">
-															<span class="symbol-label bg-gray-700 text-inverse-dark fw-bolder">?</span>
-														</div>
-														<!--end::Icon-->
-														<!--begin::Bullet-->
-														<span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-														<!--end::Bullet-->
-													</a>
-													<!--end::Link-->
-												</li>
-												<!--end::Item-->
+								<div class="tab-pane fade" id="lessons_tab">
+									<div class="col-12 card card-border-square card-flush">
+										<div class="card-body">
+											<h1>Mengetahui Konsep Gerak Lurus | Fisika Kelas 10</h1>
+											<p style="text-align: justify; color: rgb(67, 72, 86);"><span style="color: rgb(67, 72, 86);">RG Squad pernah mendengar gerak lurus? Ingat <em>yah</em>,<strong> gerak adalah perubahan kedudukan suatu benda dari posisi awal</strong>. Benda dikatakan bergerak ketika benda mengalami perpindahan atau menempuh suatu jarak tertentu. Berdasarkan lintasannya, gerak terbagi menjadi 3 jenis, yaitu gerak lurus, gerak melingkar, dan <a href="/definisi-gerak-parabola" rel="noopener">gerak melengkung</a> (parabola). Benda yang bergerak pada lintasan lurus disebut gerak lurus. <em>Nah, </em>gerak yang akan kita bahas kali ini adalah konsep gerak lurus.</span></p>
+											<!--more-->
+											<p style="text-align: justify; color: rgb(67, 72, 86);"><em>Well, </em>gerak mengenal istilah jarak dan perpindahan. Jarak adalah panjang lintasan yang ditempuh benda tanpa memperhatikan arahnya. Sementara itu, perpindahan didefinisikan sebagai panjang lintasan, namun memperhatikan arah atau kedudukan awal dan akhir benda tersebut.<span style="background-color: transparent; color: rgb(67, 72, 86);">&nbsp;</span></p>
+											<div><img src="https://lh5.googleusercontent.com/9p80xpzeOYoLgyuKjShyFEym2qUiEtO6vw6GYXWympGd9-5RauU2yGwmiOHjQHeYdJLSS-1xHB4YSjd-oYglpnh_rxCJXCu_dJNr3-oOqTSnybv-RKje-ww85tKU3UGHuXgZGzsH1RpTmuLSUg" alt="Rumus Jarak Perpindahan" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" title="konsep gerak lurus" caption="false" data-constrained="true" width="600"></div>
+											<p style="text-align: center; color: rgb(67, 72, 86);"><em>&nbsp;</em>Ilustrasi jarak dan perpindahan (sumber gambar: mediabali.net)</p>
+											<h2 style="text-align: justify; font-size: 18px; color: rgb(67, 72, 86);">Kecepatan dan Kelajuan Rata-Rata</h2>
+											<ul>
+											<li style="text-align: justify;">Kecepatan rata-rata merupakan perbandingan perpindahan benda dengan waktu tempuh. Kecepatan merupakan besaran vektor, karena memiliki besar dan arah. Kecepatan rata-rata merupakan perubahan perpindahan (posisi) yang ditempuh oleh benda tiap satuan waktu.</li>
 											</ul>
-										</div>
-									</div>
-									<div class="col-12 mb-2">
-										<div class="d-flex align-items-center flex-column mt-3 w-100">
-											<h4 class="card-title fw-bolder text-">Share your Journey</h4>
-										</div>
-										<div class="mt-3 w-100 text-center">
-											<div class="flex-column">
-												<a href="#" class="me-6">
-													<img src="../assets/media/svg/brand-logos/facebook-4.svg" class="h-40px me-2" alt="">
-												</a>
-												<a href="#" class="me-6">
-													<img src="../assets/media/svg/brand-logos/twitter-2.svg" class="h-40px me-2" alt="">
-												</a>
-												<a href="#" class="me-6">
-													<img src="../assets/media/svg/brand-logos/instagram-2-1.svg" class="h-40px me-2" alt="">
-												</a>
-											</div>
+											<p style="color: rgb(67, 72, 86);"><img src="https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=526&amp;name=Capture-43.png" alt="konsep gerak lurus" style="width: 526px; display: block; margin-left: auto; margin-right: auto;" title="konsep gerak lurus" caption="false" data-constrained="true" width="526" srcset="https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=263&amp;name=Capture-43.png 263w, https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=526&amp;name=Capture-43.png 526w, https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=789&amp;name=Capture-43.png 789w, https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=1052&amp;name=Capture-43.png 1052w, https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=1315&amp;name=Capture-43.png 1315w, https://www.ruangguru.com/hs-fs/hubfs/Capture-43.png?width=1578&amp;name=Capture-43.png 1578w" sizes="(max-width: 526px) 100vw, 526px"></p>
+											<ul>
+											<li>Kelajuan rata-rata merupakan panjang lintasan (jarak) yang ditempuh oleh benda tiap satuan waktu.</li>
+											</ul>
+											<p style="text-align: center; color: rgb(67, 72, 86);">&nbsp;<img src="https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=521&amp;name=Capture-44.png" alt="konsep gerak lurus" style="width: 521px;" title="konsep gerak lurus" caption="false" data-constrained="true" width="521" srcset="https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=261&amp;name=Capture-44.png 261w, https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=521&amp;name=Capture-44.png 521w, https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=782&amp;name=Capture-44.png 782w, https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=1042&amp;name=Capture-44.png 1042w, https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=1303&amp;name=Capture-44.png 1303w, https://www.ruangguru.com/hs-fs/hubfs/Capture-44.png?width=1563&amp;name=Capture-44.png 1563w" sizes="(max-width: 521px) 100vw, 521px"></p>
+											<h2 style="font-size: 18px; font-weight: bold; color: rgb(67, 72, 86);">Gerak lurus dibedakan menjadi 2, yaitu gerak lurus beraturan (GLB) dan gerak lurus berubah beraturan (GLBB).</h2>
+											<ul>
+											<li>Gerak Lurus Beraturan (GLB)</li>
+											<li>Gerak Lurus Berubah Beraturan (GLBB)</li>
+											</ul>
+											<p style="color: rgb(67, 72, 86);">GLB merupakan gerak benda pada lintasan lurus dengan kecepatan yang tetap atau tanpa percepatan.</p>
+											<p style="color: rgb(67, 72, 86);">Secara matematis, rumus GLB ditulis sebagai berikut:</p>
+											<p style="text-align: center; color: rgb(67, 72, 86);"><img src="https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=476&amp;name=Capture-45.png" alt="Rumus GLB" style="width: 476px; margin: 0px 10px 10px 0px; float: left;" width="476" srcset="https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=238&amp;name=Capture-45.png 238w, https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=476&amp;name=Capture-45.png 476w, https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=714&amp;name=Capture-45.png 714w, https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=952&amp;name=Capture-45.png 952w, https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=1190&amp;name=Capture-45.png 1190w, https://www.ruangguru.com/hs-fs/hubfs/Capture-45.png?width=1428&amp;name=Capture-45.png 1428w" sizes="(max-width: 476px) 100vw, 476px"></p>
+											<p style="color: rgb(67, 72, 86);">&nbsp;<img src="https://lh5.googleusercontent.com/JpjBhV2qCPq-I32ubOyVHcKOE_ymeVHCnNu1r5MSNp4c9PcTFEVqTpgqscM7sWiyDuafj18TwwP2C3ChRIrZdvykLy3uh60en1S9RpbnPSeQ5ugvl4pcqKmvl0g_lC4YyAHPb4egjEqGO69Rjg" alt="konsep gerak lurus" style="background-color: transparent; width: 486px; display: block; margin-left: auto; margin-right: auto;" title="konsep gerak lurus" caption="false" data-constrained="true" width="486"></p>
+											<p style="text-align: center; color: rgb(67, 72, 86);"><em>Grafik GLB v terhadap t (sumber: brainly.co.id)</em></p>
+											<p style="text-align: justify; color: rgb(67, 72, 86);">GLBB merupakan gerak lurus suatu benda yang kecepatannya berubah karena adanya percepatan tetap. Maksud percepatan tetap ialah percepatan selalu sama terhadap waktu. Karena adanya percepatan, rumus jarak yang ditempuh tidak lagi linier, melainkan kuadratik.</p>
+											<p style="color: rgb(67, 72, 86);">&nbsp;<img src="https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=508&amp;name=Capture-46.png" alt="Capture-46.png" style="width: 508px;" width="508" srcset="https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=254&amp;name=Capture-46.png 254w, https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=508&amp;name=Capture-46.png 508w, https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=762&amp;name=Capture-46.png 762w, https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=1016&amp;name=Capture-46.png 1016w, https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=1270&amp;name=Capture-46.png 1270w, https://www.ruangguru.com/hs-fs/hubfs/Capture-46.png?width=1524&amp;name=Capture-46.png 1524w" sizes="(max-width: 508px) 100vw, 508px"></p>
+											<p style="color: rgb(67, 72, 86);">Ketentuan :</p>
+											<p style="color: rgb(67, 72, 86);">(+) saat benda dipercepat , jadi vt &gt; v0</p>
+											<p style="color: rgb(67, 72, 86);">(-) saat benda diperlambat, jadi vt &lt; v0</p>
+											<p style="color: rgb(67, 72, 86);">&nbsp;</p>
+											<div><img src="http://fisikazone.com/wp-content/uploads/2015/03/Grafik-GLBB.jpg" alt="Grafik GLBB" style="width: 640px; display: block; margin-left: auto; margin-right: auto;" width="640"></div>
+											<p style="text-align: center; color: rgb(67, 72, 86);">Grafik GLBB (sumber gambar: fisikazone.com)</p>
 										</div>
 									</div>
 								</div>
